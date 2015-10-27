@@ -8,17 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/crazyTall/pixelsOfEight"
+    "url": "https://github.com/crazyTall/angular-app-project-setup"
   },
   "author": "Graeme Norman",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/crazyTall/pixelsOfEight/issues"
+    "url": "https://github.com/crazyTall/angular-app-project-setup/issues"
   },
-  "homepage": "https://github.com/crazyTall/pixelsOfEight",
+  "homepage": "https://github.com/crazyTall/angular-app-project-setup#readme",
   "devDependencies": {
     "browser-sync": "^2.9.11",
     "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
     "gulp-sass": "^2.0.4"
   }
 }
