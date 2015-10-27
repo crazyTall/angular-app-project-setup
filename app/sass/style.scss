@@ -1,0 +1,23 @@
+
+// These are just for the purpose of showing the Gulp "watch" and "sass" tasks running to add and remove these and save
+
+// Test Variables
+  $mainColor        :   #000000;
+  $secondaryColor   :   red;
+  $anotherColor     :   blue;
+  $anotherOne       :   green;
+
+  $bodyBackground   :   #ffffff;
+  $innerBackground  :   #cfcfcf;
+  $background       :   #BDD752;
+
+
+// Styles
+
+body {background: $bodyBackground;}
+h1 {color: $mainColor; font-style: italic; }
+h2 {color: $secondaryColor; }
+p  {color: $anotherColor; }
+p span {color: $anotherOne; font-weight: bold; text-decoration: underline; }
+
+#contentContainer {background: $innerBackground; border: 3px solid $background; margin:0 auto; padding: 15px; width: 1024px;}
