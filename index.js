@@ -1,10 +1,10 @@
 var path = require('path');
-var pixelsOfEightEntryPoint = require.resolve('pixelsOfEight');
+var whitelabelEntryPoint = require.resolve('app-white-label');
 
-var pixelsOfEightDir = path.dirname(pixelsOfEightEntryPoint) + '/app/sass';
+var whitelabelDir = path.dirname(whitelabelEntryPoint) + '/app/sass';
 
 function includePaths() {
-    return [pixelsOfEightDir];
+    return [whitelabelDir];
 }
 
 module.exports = {

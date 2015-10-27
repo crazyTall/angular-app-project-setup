@@ -1,7 +1,7 @@
 {
-  "name": "pixelsOfEight",
+  "name": "app-white-label",
   "version": "1.0.0",
-  "description": "Portfolio website",
+  "description": "Whitelabel setup",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
