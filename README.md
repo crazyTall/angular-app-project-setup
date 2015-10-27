@@ -33,12 +33,16 @@ put into a file inside the 'generated' folder
 This does exactly what is says on the tin, when any changes to any css / js / html files are detected browserSync
 refreshes the browser(s) automatically to show your changes
 
+### jshint
+Runs jshint against all JS files inside app/scripts and gives report in console
+Can be run by itself using gulp lint or will run as part of watch task while app is running
+
 ## Gulp tasks
 
-'gulp serve' - serves the application
+- 'gulp serve' - serves the application
+- 'gulp lint' - runs jshint against all JS in scripts folder
 
 
 ## Still to add
 
-- jshint
 - karma

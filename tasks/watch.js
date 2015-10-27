@@ -5,8 +5,11 @@ module.exports = function () {
     var gulp        = require('gulp'),
         browserSync = require('browser-sync');
 
-    gulp.task('watch', ['browserSync', 'sass'], function () {
-        gulp.watch('./app/sass/*.scss', ['sass']);
+    gulp.task('watch', ['browserSync', 'sass', 'lint'], function () {
+        gulp.watch('./app/sass/*.scss', ['sass']),
+        gulp.watch(['app/scripts/*.js', 'app/scripts/**/*.js'],[
+            'lint'
+        ]);
     });
 
 };
