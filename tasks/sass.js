@@ -8,7 +8,9 @@ module.exports = function () {
 
     gulp.task('sass', function() {
         gulp.src(['./app/sass/*.scss', './app/sass/**/*.scss'])
-            .pipe(sass().on('error', sass.logError))
+            .pipe(sass({
+                includePaths : ['./app/sass']
+            }).on('error', sass.logError))
             .pipe(gulp.dest('./app/generated/css'))
             .pipe(browserSync.reload({
                 stream: true
