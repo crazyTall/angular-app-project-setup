@@ -21,3 +21,12 @@ p  {color: $anotherColor; }
 p span {color: $anotherOne; font-weight: bold; text-decoration: underline; }
 
 #contentContainer {background: $innerBackground; border: 3px solid $background; margin:0 auto; padding: 15px; width: 1024px;}
+
+.grid--section {
+  padding: 1em 1em;
+  text-align: center;
+  border: solid thin #F8F8F8;
+}
+.swatch__bg--light-grey {
+  background: $innerBackground;
+}
