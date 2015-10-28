@@ -7,7 +7,7 @@ module.exports = function () {
     sass        = require('gulp-sass');
 
     gulp.task('sass', function() {
-        gulp.src('./app/sass/*.scss')
+        gulp.src(['./app/sass/*.scss', './app/sass/**/*.scss'])
             .pipe(sass().on('error', sass.logError))
             .pipe(gulp.dest('./app/generated/css'))
             .pipe(browserSync.reload({
