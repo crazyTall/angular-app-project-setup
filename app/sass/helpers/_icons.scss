@@ -1,0 +1,222 @@
+/* --------
+  Whitelabel font icons
+  -------- */
+
+/* -------- Icons -------- */
+
+// Home
+  @include create-icon('home', 'icon--home');
+
+// Edit
+  @include create-icon('edit', 'icon--edit');
+
+// Image
+  @include create-icon('image', 'icon--image');
+
+// Images
+  @include create-icon('multi-image', 'icon--multi_image');
+
+// Phone
+  @include create-icon('phone', 'icon--phone');
+
+// Pin for map
+  @include create-icon('pin', 'icon--pin');
+
+// Location pointer
+  @include create-icon('location', 'icon--location');
+
+// Current Location (pointer)
+  @include create-icon('current_location', 'icon--current_location');
+
+// Desktop
+  @include create-icon('desktop', 'icon--desktop');
+
+// Laptop
+  @include create-icon('laptop', 'icon--laptop');
+
+// Tablet
+  @include create-icon('tablet', 'icon--tablet');
+
+// Mobile
+  @include create-icon('mobile', 'icon--mobile');
+
+// Timer
+  @include create-icon('timer', 'icon--timer');
+
+// Zoom-in
+  @include create-icon('zoom_in', 'icon--zoom_in');
+
+// Zoom-out
+  @include create-icon('zoom_out', 'icon--zoom_out');
+
+// Plus sign
+  @include create-icon('plus', 'icon--plus');
+
+// Minus sign
+  @include create-icon('minus', 'icon--minus');
+
+// Right arrow
+  @include create-icon('arrow_right', 'icon--arrow_right');
+
+// Left arrow
+  @include create-icon('arrow_left', 'icon--arrow_left');
+
+// Circular right arrow
+  @include create-icon('circle_right', 'icon--circle_right');
+
+// Circular left arrow
+  @include create-icon('circle_left', 'icon--circle_left');
+
+// Google+
+  @include create-icon('google_plus', 'icon--google_plus');
+
+// Facebook
+  @include create-icon('facebook', 'icon--facebook');
+
+// Twitter
+  @include create-icon('twitter', 'icon--twitter');
+
+// Skype
+  @include create-icon('skype', 'icon--skype');
+
+// LinkedIn
+  @include create-icon('linkedin', 'icon--linkedin');
+
+
+/* Whitelabel font icon instructions
+--------------------------------------------------
+To add icons to the pixelsOfEight font, follow the steps below:
+   - inside the FEAR project, go to the /app/assets/fonts/
+   - unzip the file mns-icons.zip
+   - go to https://icomoon.io/app/
+   - click on the hamburger menu
+   - click on New Project
+   - click Import Icons
+   - from the unzipped folder, select file 'selection.json'
+   - click Import Icons
+   - select your new SVG files to add to the font file
+   - make sure all icons are selected
+   - click on Generate Font
+   - rename new icons if necessary
+   - click Download and save .zip file
+   - unzip the newly created file
+   - copy all font files from /mns-icons/fonts/ (eot, svg, ttf, woff) to FEAR folder /app/assets/fonts/
+   - copy-paste the '.icon-.....' css rules from style.css into FEAR folder /sass/components/_icons.scss
+*/
+
+.icon {
+  font-family: 'pixelsOfEight';
+  @include rem(font-size, 25px);
+  margin: 7px;
+  padding: 1em 0;
+}
+
+.icon--home:before {
+  content: '\e900';
+}
+
+.icon--edit:before {
+  content: '\e901';
+}
+
+.icon--image:before {
+  content: '\e902';
+}
+
+.icon--multi_image:before {
+  content: '\e903';
+}
+
+.icon--phone:before {
+  content: '\e904';
+}
+
+.icon--pin:before {
+  content: '\e905';
+}
+
+.icon--location:before {
+  content: '\e906';
+}
+
+.icon--current_location:before {
+  content: '\e907';
+}
+
+.icon--desktop:before {
+  content: '\e908';
+}
+
+.icon--laptop:before {
+  content: '\e909';
+}
+
+.icon--tablet:before {
+  content: '\e90b';
+}
+
+.icon--mobile:before {
+  content: '\e90a';
+}
+
+.icon--timer:before {
+  content: '\e90c';
+}
+
+.icon--zoom_in:before {
+  content: '\e90d';
+}
+
+.icon--zoom_out:before {
+  content: '\e90e';
+}
+
+.icon--plus:before {
+  content: '\e90f';
+}
+
+.icon--minus:before {
+  content: '\e910';
+}
+
+.icon--arrow_right:before {
+  content: '\e911';
+}
+
+.icon--arrow_left:before {
+  content: '\e912';
+}
+
+.icon--circle_right:before {
+  content: '\e913';
+}
+
+.icon--circle_left:before {
+  content: '\e914';
+}
+
+.icon--google_plus:before {
+  content: '\e915';
+}
+
+.icon--facebook:before {
+  content: '\e916';
+}
+
+.icon--twitter:before {
+  content: '\e917';
+}
+
+.icon--skype:before {
+  content: '\e918';
+}
+
+.icon--linkedin:before {
+  content: '\e919';
+}
+
+/*
+.icon--:before {
+  content: '\';
+}
+*/

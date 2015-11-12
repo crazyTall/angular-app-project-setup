@@ -1,4 +1,5 @@
-
+/* Fonts */
+  @import 'helpers/fonts';
 
 /* Bootstrap */
   @import 'bootstrap/bootstrap-variables';
@@ -13,3 +14,10 @@
   @import 'helpers/mixins';
   @import 'helpers/bem-grid';
   @import 'helpers/core';
+
+/* Other */
+  @import 'core/style';
+
+/* Components */
+  @import 'helpers/icons';
+
